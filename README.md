@@ -1,0 +1,34 @@
+# Psychopharmacology Trainer
+
+A web-based review app for psychiatry residents covering Chapters 1–13 of *Stahl’s Essential Psychopharmacology*, 5th edition. Its content comes from the 13 chapter study-guide slide decks and the cumulative review deck.
+
+This app was created by Isabella Navarro, MD. Latest version October 2026. isaymotion@gmail.com
+
+## Features
+
+- **Flashcards:** 208 self-test cards (16 per chapter) with spaced repetition. Cards move through six boxes; missed cards repeat within the session.
+- **Quiz:** 24 board-style questions with explanations, card-based multiple choice, and abbreviation drills. Filter by chapter, choose 10, 20 or 40 questions, and retry the ones you missed.
+- **Study notes:** every content slide from the 13 decks (about 620 notes), with clinical links, comparison tables and figure references. Searchable within a chapter or across all chapters.
+- **Atlas & drugs:** the neurotransmitter atlas, drug-by-drug quick reference and high-yield review from the cumulative deck.
+- **Glossary:** about 300 abbreviations and terms, filterable by chapter and quizzable.
+- **Progress:** mastery and quiz accuracy by chapter and a study-day streak, with export, import and reset.
+
+Progress is saved in each user’s own browser (localStorage). No accounts, servers or tracking.
+
+## Publish on GitHub Pages
+
+1. Create a new public repository on GitHub.
+2. Upload `index.html` and this `README.md` to the root of the repository.
+3. In the repository’s **Settings → Pages**, set the source to deploy from the `main` branch, root folder.
+4. After a minute or two, the app is live at `https://<your-username>.github.io/<repository-name>/`.
+
+The app is a single self-contained `index.html` with no build step. It loads two Google Fonts and falls back to system fonts if they are unavailable. Opening `index.html` directly in a browser also works.
+
+## Keyboard shortcuts
+
+- **Flashcards:** `Space` reveals the answer; `1` marks it missed, `2` marks it known.
+- **Quiz:** `A`–`D` answer the question; `Enter` goes to the next one.
+
+## Source and disclaimer
+
+Content summarizes Stahl SM, *Stahl’s Essential Psychopharmacology*, 5th edition (Chapters 1–13), for educational use. It is a study aid, not a substitute for the book or for clinical judgment. Confirm doses and prescribing details in current references before clinical use.
