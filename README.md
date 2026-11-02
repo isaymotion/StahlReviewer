@@ -12,6 +12,7 @@ This app was created by Isabella Navarro, MD. Latest version October 2026. isaym
 - **Atlas & drugs:** the neurotransmitter atlas, drug-by-drug quick reference and high-yield review from the cumulative deck.
 - **Glossary:** about 300 abbreviations and terms, filterable by chapter and quizzable.
 - **Dark mode:** the moon/sun button in the top bar switches between light and dark. The choice is remembered, and by default the app follows the device setting (About & progress also offers Light, Dark or Match device).
+- **Text size:** tap Aa in the top bar to make text smaller or larger. Your choice is saved on this device.
 - **Back and forward:** arrow buttons in the top bar step through the pages you have visited, return you to where you were scrolled, and are greyed out when there is nowhere to go. The browser’s own back/forward buttons and `Alt`+`←`/`→` work the same way.
 - **Progress:** mastery and quiz accuracy by chapter and a study-day streak, with export, import and reset.
 
